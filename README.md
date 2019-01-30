@@ -6,15 +6,28 @@ Extractdede es una herramienta de extracción de links de las distintas series d
 Abrimos el archivo de configuración "configuration.conf" y modificamos cada dato de la siguiente manera:
 
     [SERIE]
-    URL = HOME.SERIE.URL.VALUE (Sin comillas)
+    URL = HOME.SERIE.URL.VALUE 
     [SESSION]
-    COOKIE_CFDUID = 'cfduid.VALUE' (Sin comillas)
-    COOKIE_CAKEPHP_SESSION = 'cakephp_session.VALUE' (Sin comillas) 
-    COOKIE_CF_USE_OB = 'cf_use_ob.VALUE' (Sin comillas)
-    COOKIE_MEGADEDE-SESS = 'megadede-sess.VALUE' (Sin comillas)
-    COOKIE_PHPSESSID = 'PHPSESSID.VALUE' (Sin comillas)
-    COOKIE_POPSHOWN2 = 'popshown2.VALUE' (Sin comillas)
-    COOKIE_XSRF-TOKEN = 'xsrf-token.VALUE' (Sin comillas)
+    COOKIE_CFDUID = cfduid.VALUE 
+    COOKIE_CAKEPHP_SESSION = cakephp_session.VALUE 
+    COOKIE_CF_USE_OB = cf_use_ob.VALUE 
+    COOKIE_MEGADEDE-SESS = megadede-sess.VALUE 
+    COOKIE_PHPSESSID = PHPSESSID.VALUE 
+    COOKIE_POPSHOWN2 = popshown2.VALUE 
+    COOKIE_XSRF-TOKEN = xsrf-token.VALUE 
+
+Ejemplo del archivo configuration.conf:
+
+    [SERIE]
+    URL = https://www.megadede.com/serie-1 
+    [SESSION]
+    COOKIE_CFDUID = jfdoefmof5412fkspef
+    COOKIE_CAKEPHP_SESSION = eeefefxgdthbcghnchbn 
+    COOKIE_CF_USE_OB = 0 
+    COOKIE_MEGADEDE-SESS = mbvmgnyfjfhrsjjf5hrd3sfgsghrdhb 
+    COOKIE_PHPSESSID = vxdvbrxhbtdbrdbdr
+    COOKIE_POPSHOWN2 = 1
+    COOKIE_XSRF-TOKEN = segsevbg4hrsnrdhrghdrhrdhbr
 
 Si no tenemos instalado splash: 
     
