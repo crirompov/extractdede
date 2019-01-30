@@ -1,0 +1,14 @@
+# Metadatos
+.DS_Store
+
+#Config local
+configuration.conf.old
+
+#pyc
+*.pyc
+
+#old
+*.old
+
+#csv
+*.csv
