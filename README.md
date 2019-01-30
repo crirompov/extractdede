@@ -8,13 +8,13 @@ Abrimos el archivo de configuración "configuration.conf" y modificamos cada dat
     [SERIE]
     URL = HOME.SERIE.URL.VALUE (Sin comillas)
     [SESSION]
-    COOKIE_CFDUID = 'cfduid.VALUE' (Con comillas)
-    COOKIE_CAKEPHP_SESSION = 'cakephp_session.VALUE' (Con comillas) 
-    COOKIE_CF_USE_OB = 'cf_use_ob.VALUE' (Con comillas)
-    COOKIE_MEGADEDE-SESS = 'megadede-sess.VALUE' (Con comillas)
-    COOKIE_PHPSESSID = 'PHPSESSID.VALUE' (Con comillas)
-    COOKIE_POPSHOWN2 = 'popshown2.VALUE' (Con comillas)
-    COOKIE_XSRF-TOKEN = 'xsrf-token.VALUE' (Con comillas)
+    COOKIE_CFDUID = 'cfduid.VALUE' (Sin comillas)
+    COOKIE_CAKEPHP_SESSION = 'cakephp_session.VALUE' (Sin comillas) 
+    COOKIE_CF_USE_OB = 'cf_use_ob.VALUE' (Sin comillas)
+    COOKIE_MEGADEDE-SESS = 'megadede-sess.VALUE' (Sin comillas)
+    COOKIE_PHPSESSID = 'PHPSESSID.VALUE' (Sin comillas)
+    COOKIE_POPSHOWN2 = 'popshown2.VALUE' (Sin comillas)
+    COOKIE_XSRF-TOKEN = 'xsrf-token.VALUE' (Sin comillas)
 
 Si no tenemos instalado splash: 
     
