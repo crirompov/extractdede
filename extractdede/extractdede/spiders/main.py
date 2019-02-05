@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Author: Cristian Romero Povea
 
 from scrapy.item import Field
 from scrapy.item import Item
