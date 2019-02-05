@@ -29,6 +29,8 @@ class MegaadedeItem(Item):
 class MegadedeSpider(CrawlSpider):
     name = "MegadedeCrawlSpider"
 
+    download_delay = 2
+
     #Archivo configuración:
     configuration = configparser.ConfigParser()
     configuration.read('configuration.conf')
